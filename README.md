@@ -1,2 +1,1 @@
-# class
-# class
+# Schoolwork repository (not much to see)
