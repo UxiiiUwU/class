@@ -13,3 +13,19 @@ Niepoprawny zapis: `20%`, `20,55`, `20,5`
 ### Problemy z kodowaniem znaków
 
 Jeśli w programie nie wyświetlają się polskie znaki (zazwyczaj w systemie windows), należy włączyć kodowanie UTF-8 za pomocą polecenia `chcp 65001` na systemie windows.
+
+### Kompilacja
+(po zainstalowaniu kompilatora gcc)
+cd src
+gcc main.c -o kalkulator-marzy
+
+### Uruchomienie
+
+Linux/macOS:
+```
+./kalkulator-marzy
+```
+Windows:
+```
+.\kalkulator-marzy.exe
+```
