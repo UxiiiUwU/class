@@ -16,8 +16,10 @@ Jeśli w programie nie wyświetlają się polskie znaki (zazwyczaj w systemie wi
 
 ### Kompilacja
 (po zainstalowaniu kompilatora gcc)
+```
 cd src
 gcc main.c -o kalkulator-marzy
+```
 
 ### Uruchomienie
 

@@ -17,8 +17,10 @@ Poprawny zapis: `3.756663`
 Jeśli w programie nie wyświetlają się polskie znaki (zazwyczaj w systemie windows), należy włączyć kodowanie UTF-8 za pomocą polecenia `chcp 65001` na systemie windows.
 
 ### Kompilacja
+```
 cd src
 gcc main.c -o konwersja-walut
+```
 
 ### Uruchomienie
 
