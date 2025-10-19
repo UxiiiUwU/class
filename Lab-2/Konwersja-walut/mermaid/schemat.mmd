@@ -1,0 +1,10 @@
+flowchart TD
+    A([START]) --> B[Wyświetl tytuł programu: konwerter walut PLN → USD]
+    B --> C[/Pobierz kwotę w PLN/]
+    C --> D[/Pobierz kurs wymiany USD/PLN/]
+    D --> E{Czy dane są poprawne?}
+    E -->|Nie| F[Wyświetl komunikat o błędzie]
+    F --> G([STOP])
+    E -->|Tak| H[Oblicz kwotę w USD = kwota PLN ÷ kurs]
+    H --> I[Wyświetl wynik w USD]
+    I --> G([STOP])

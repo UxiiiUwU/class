@@ -1,0 +1,10 @@
+flowchart TD
+    A([START]) --> B[Wyświetl tytuł programu]
+    B --> C[/Pobierz cenę zakupu netto/]
+    C --> D[/Pobierz wartość planowanej marży/]
+    D --> E{Czy dane są poprawne?}
+    E -->|Nie| F[Wyświetl komunikat o błędzie]
+    F --> G([STOP])
+    E -->|Tak| H[Oblicz cenę sprzedaży z marżą]
+    H --> I[Wyświetl wynik obliczeń]
+    I --> G([STOP])
