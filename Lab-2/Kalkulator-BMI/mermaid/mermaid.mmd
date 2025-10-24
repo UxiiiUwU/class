@@ -1,0 +1,20 @@
+flowchart TD
+    A([Start]) --> B[Print: Kalkulator BMI 1.0]
+    B --> C[/Podaj wage kg/]
+    C --> D[/Podaj wzrost m/]
+    D --> E[bmi = kg / m * m]
+
+    E --> F{kg < 0 lub m < 0}
+    F -->|Yes| Z[Print: Niepoprawne dane wejsciowe] --> End1([End])
+    F -->|No| G{bmi < 18.5}
+
+    G -->|Yes| S0[Print: BMI i niedowaga] --> End0([End])
+    G -->|No| H{bmi < 25}
+
+    H -->|Yes| S1[Print: BMI i prawidlowa] --> End2([End])
+    H -->|No| I{bmi < 30}
+
+    I -->|Yes| S2[Print: BMI i nadwaga] --> End3([End])
+    I -->|No| J{bmi >= 30}
+
+    J -->|Yes| S3[Print: BMI i otylosc] --> End4([End])
