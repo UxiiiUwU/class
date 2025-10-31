@@ -1,0 +1,46 @@
+flowchart TD
+    A([Start]) --> B[Print: Konwerter prędkości wiatru na Skale Beauforta]
+    B --> C[/Podaj v_ms/]
+    C --> D[knots = v_ms * 1.94384]
+
+    D --> E{knots < 0}
+    E -->|Yes| Z1[Print: Błąd, niepoprawne dane wejściowe] --> End1([End])
+    E -->|No| F{knots < 1}
+    
+    F -->|Yes| S0[Beaufort 0: Calm] --> End0([End])
+    F -->|No| G{knots <= 3}
+    
+    G -->|Yes| S1[Beaufort 1: Light air] --> End2([End])
+    G -->|No| H{knots <= 6}
+    
+    H -->|Yes| S2[Beaufort 2: Light breeze] --> End3([End])
+    H -->|No| I{knots <= 10}
+    
+    I -->|Yes| S3[Beaufort 3: Gentle breeze] --> End4([End])
+    I -->|No| J{knots <= 16}
+    
+    J -->|Yes| S4[Beaufort 4: Moderate breeze] --> End5([End])
+    J -->|No| K{knots <= 21}
+    
+    K -->|Yes| S5[Beaufort 5: Fresh breeze] --> End6([End])
+    K -->|No| L{knots <= 27}
+    
+    L -->|Yes| S6[Beaufort 6: Strong breeze] --> End7([End])
+    L -->|No| M{knots <= 33}
+    
+    M -->|Yes| S7[Beaufort 7: Near gale] --> End8([End])
+    M -->|No| N{knots <= 40}
+    
+    N -->|Yes| S8[Beaufort 8: Gale] --> End9([End])
+    N -->|No| O{knots <= 47}
+    
+    O -->|Yes| S9[Beaufort 9: Strong gale] --> End10([End])
+    O -->|No| P{knots <= 55}
+    
+    P -->|Yes| S10[Beaufort 10: Storm] --> End11([End])
+    P -->|No| Q{knots <= 63}
+    
+    Q -->|Yes| S11[Beaufort 11: Violent storm] --> End12([End])
+    Q -->|No| R{knots >= 64}
+    
+    R -->|Yes| S12[Beaufort 12: Hurricane] --> End13([End])
