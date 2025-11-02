@@ -38,7 +38,7 @@ Output:
 50, 60, 70, 80, 90, 100, 
 ```
 #### Dane 2
-k: -1
+k: `-1`
 Output:
 ```
 Wpisano niepoprawne dane
