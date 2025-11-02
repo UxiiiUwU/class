@@ -7,7 +7,7 @@ Prosty program, który wyświetla kalendarz w formacie ASCII na podstawie danych
 Program prosi o ilość dni w miesiącu i dzień w którym zaczyna się tydzięń
 ### Przyjmowane formaty liczb
 
-Liczby naturalne takie jak `1`, `5500` są przyjmowane
+Liczby naturalne takie jak `1`, `30` są przyjmowane
 ### Problemy z kodowaniem znaków
 
 Jeśli w programie nie wyświetlają się polskie znaki (zazwyczaj w systemie windows), należy włączyć kodowanie UTF-8 za pomocą polecenia `chcp 65001` na systemie windows.
