@@ -4,7 +4,6 @@ int main(void) {
     int liczbaDni, dzienStartowy;
     int i;
     char emptyText[4] = "";
-    int i2;
     printf("Generator kalendarza ASCII 1.0\n");
     printf("Podaj ilość dni miesiąca, które ma zawierać twój kalendarz.\n");
     scanf("%d", &liczbaDni);
