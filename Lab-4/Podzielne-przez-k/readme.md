@@ -39,6 +39,7 @@ Output:
 ```
 #### Dane 2
 k: `-1`
+
 Output:
 ```
 Wpisano niepoprawne dane
