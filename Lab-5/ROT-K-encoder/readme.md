@@ -7,6 +7,7 @@ Prosty program, który obfuskuje tekst na podstawie szyfru rotacyjnego
 Program prosi o przesunięcie znaków `k`, oraz tekst do obfuskacji.
 ### Przyjmowane formaty znaków
 Dla wartości `k` przyjmowane są liczby naturalne takie jak np: `10`, `5`. Gdy wartośc k wyskoczy poza 25, program jest zamykany
+
 Dla tekstu przyjmowane są wartości wewnątrz zakresu ASCII takich jak np: `fQpX2!?<`, `Tomek`, `Podatki_Drogie`
 ### Kompilacja
 (po zainstalowaniu kompilatora gcc)
