@@ -8,7 +8,7 @@ int main(void) {
     printf("k=");
     scanf("%d", &k);
     if (k > 25) {
-        printf("K nie może wynosić więcej niż 26\n");
+        printf("K nie może wynosić więcej niż 25\n");
         return 0;
     }
     getchar();

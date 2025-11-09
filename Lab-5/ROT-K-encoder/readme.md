@@ -55,5 +55,5 @@ Tekst: `Admin123.!`
 
 Output:
 ```
-K nie może wynosić więcej niż 26
+K nie może wynosić więcej niż 25
 ```
