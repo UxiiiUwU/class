@@ -26,6 +26,7 @@ Linux/macOS:
 Windows:
 
 ```
+chcp 65001 
 .\MaxDiff.exe
 ```
 
