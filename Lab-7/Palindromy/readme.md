@@ -1,4 +1,4 @@
-# Palindoromy– Lab 7
+# Palindromy – Lab 7
 
 Prosty program, który sprawdza czy podany tekst jest palindromem
 ## Opis działania
@@ -8,7 +8,7 @@ Program prosi użttkownika o tekst, który sprawdza on co do tego czy jest on pa
 ### Kompilacja
 
 ```
-gcc -Wall -Wextra main.c -o Palindoromy
+gcc -Wall -Wextra main.c -o Palindromy
 ```
 
 ### Uruchomienie
@@ -16,14 +16,14 @@ gcc -Wall -Wextra main.c -o Palindoromy
 Linux/macOS:
 
 ```
-./Palindoromy
+./Palindromy
 ```
 
 Windows:
 
 ```
 chcp 65001 
-.\Palindoromy.exe
+.\Palindromy.exe
 ```
 
 ### Dane testowe
